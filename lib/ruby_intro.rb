@@ -11,7 +11,7 @@ def max_2_sum(arr)
   # YOUR CODE HERE
   return 0 if arr.empty?      
   return arr.first if arr.length == 1
-  0 
+  arr.max(2).reduce(:+)
 end
 
 def sum_to_n?(arr, number)
