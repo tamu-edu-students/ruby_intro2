@@ -5,6 +5,7 @@
 def sum(arr)
   # YOUR CODE HERE
   0
+  0
 end
 
 def max_2_sum(arr)
