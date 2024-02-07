@@ -17,6 +17,7 @@ end
 def sum_to_n?(arr, number)
   # YOUR CODE HERE
   return false if arr.empty?
+  return false if arr.length == 1
 end
 
 # Part 2
