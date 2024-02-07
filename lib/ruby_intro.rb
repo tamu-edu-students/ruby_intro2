@@ -54,10 +54,12 @@ end
 
 def hello(name)
   # YOUR CODE HERE
+  "Hello, #{name}"
 end
 
 def starts_with_consonant?(string)
   # YOUR CODE HERE
+  !!string.match(/\A[bcdfghjklmnpqrstvwxyz]/i)
 end
 
 def binary_multiple_of_4?(string)
