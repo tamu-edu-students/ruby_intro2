@@ -64,6 +64,12 @@ end
 
 def binary_multiple_of_4?(string)
   # YOUR CODE HERE
+  return true if string == '0' # 单独处理'0'的情况
+  if string =~ /\A[01]+\z/ && string.end_with?('00')
+    true
+  else
+    false
+  end
 end
 
 # Part 3
