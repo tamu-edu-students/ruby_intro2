@@ -12,7 +12,6 @@ def sum2(arr)
   arr.inject(0) { |sum, num| sum + num }
 end
 
-
 def max_2_sum(arr)
   # YOUR CODE HERE
   return 0 if arr.empty?      
@@ -40,7 +39,7 @@ def sum_to_n?(arr, number)
 end
 
 # alternative
-def sum_to_n?(arr, number)
+def sum_to_n_2(arr, number)
   return false if arr.length < 2
   complements = {}
   arr.each do |element|
