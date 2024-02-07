@@ -18,6 +18,7 @@ def sum_to_n?(arr, number)
   # YOUR CODE HERE
   return false if arr.empty?
   return false if arr.length == 1
+  arr.combination(2).any? { |a, b| a + b == number }
 end
 
 # Part 2
